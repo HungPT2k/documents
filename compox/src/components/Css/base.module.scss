@@ -1,0 +1,318 @@
+* {
+  margin: 0px;
+}
+
+.wrapper {
+  width: auto;
+  margin: auto;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  background: #282c34;
+  //border: 1px solid #ffedc8;
+  text-align: center;
+  font-style: oblique;
+  font-variant-caps: small-caps;
+  color: #ffb510;
+
+  ul {
+    float: right;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    li {
+      list-style: none;
+      display: inline-block;
+      padding: 0px 20px;
+
+      a {
+        text-decoration: none;
+        display: block;
+
+        &:hover {
+          text-decoration: underline;
+      }
+    }
+  }
+}
+}
+
+.menu {
+  width: auto;
+  height: 70px;
+  background: #9d71ff;
+  border: 1px solid #ffedc8;
+
+  ul {
+    text-align: center;
+
+    li {
+      list-style: none;
+      display: inline-block;
+
+      a {
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        padding: 20px 30px 31px 30px;
+
+        &:hover {
+          background: #f5ff66;
+      }
+    }
+  }
+}
+}
+
+.menu2 {
+  width: auto;
+  height: 40px;
+  background: #ffd77b;
+  border: 1px solid #ffedc8;
+
+  ul {
+    text-align: center;
+
+    li {
+      list-style: none;
+      display: inline-block;
+
+      a {
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        padding: 12px 30px;
+
+        &:hover {
+          background: #f5ff66;
+      }
+    }
+  }
+}
+}
+
+.calendar table {
+  margin: 10px auto;
+
+  tr {
+    text-align: center;
+
+    td {
+      padding: 10px 40px;
+  }
+}
+}
+
+.container {
+  width: 1100px;
+  margin: auto;
+}
+
+.calendar {
+  height: 120px;
+  background: #c7f5ff;
+  border: 1px solid #ffedc8;
+}
+
+div.muaVe > div {
+  display: none;
+
+  &:first-child {
+    display: block;
+}
+}
+
+.lichChieuPhim {
+  margin: auto;
+  width: 1100px;
+  height: 600px;
+  background-color: moccasin;
+}
+
+.content1 {
+  width: 70%;
+  height: 600px;
+  background: #f7ffb4;
+  float: left;
+}
+
+.header1 {
+  height: 20%;
+  background: bisque;
+  text-align: center;
+  ul {
+    float: left;
+    margin: 40px ;
+
+    li {
+      font-size: 25px;
+      list-style: none;
+      display: inline-block;
+
+  }
+  a{
+    padding: 30px;
+  }
+}
+}
+
+.position {
+  width: 40%;
+  height: 80%;
+  background: navajowhite;
+  float: left;
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    li {
+      list-style: none;
+      text-align: center;
+
+      a {
+        text-decoration: none;
+        padding: 17px 16px;
+        display: block;
+
+        &:hover {
+          background: #f5ff66;
+      }
+    }
+  }
+}
+}
+
+
+.Table table {
+  float: left;
+  position: relative;
+  width: 60%;
+  tbody{
+  tr {
+    //padding: 12px;
+
+    td {
+      text-align: center;
+
+      button {
+        padding: 7px;
+        text-align: center;
+
+        &:hover {
+          background: red;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+}
+
+.content2 {
+  width: 30%;
+  height: 600px;
+  background: #ffedc8;
+  float: right;
+}
+
+.header2 {
+  height: 20%;
+  background: #ffa5b9;
+  text-align: center;
+
+  ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+    li {
+      list-style: none;
+      display: inline-block;
+
+      a {
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        padding: 20px 20px 32px 20px;
+
+        &:hover {
+          background: #f5ff66;
+      }
+    }
+  }
+}
+}
+
+.list {
+  height: 80%;
+  background: #daffae;
+  overflow-y: scroll;
+
+  ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 30px 0px;
+
+    &:hover {
+      text-decoration: underline;
+  }
+}
+}
+
+.ticket {
+  height: 100px;
+  background: #c1ffe1;
+  clear: both;
+
+  li {
+    margin-top: 30px;
+    margin-left: 15px;
+    padding: 5px 0px;
+    float: left;
+    input{
+      background: #f8ff6d;
+    }
+    button{
+      background: #ffce1d;
+    }
+}
+
+  img {
+    float: right;
+    height: 200px;
+}
+}
+.OkTicket{
+ background: #feffe9;
+  input{
+    background: #f8ff6d;
+  }
+}
+.CancelTicket{
+  display: none;
+}
+.footer {
+  width: 1100px;
+  height: 300px;
+  background: #584eff;
+  clear: both;
+  margin: auto;
+
+  p {
+    margin-bottom: 0px;
+}
+}
+
+.choseTime label {
+  display: inline-block;
+  padding: 0px 10px;
+}
+.showSeat{
+  display: none;
+}

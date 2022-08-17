@@ -1,0 +1,7 @@
+export const GET_TODOS = 'GET_TODOS'
+export const GET_ZOOM = 'GET_ZOOM'
+export const MARK_COMPLETE = 'MARK_COMPLETE'
+export const MARK_COMPLETE1 = 'MARK_COMPLETE1'
+export const MARK_COMPLETE2 = 'MARK_COMPLETE2'
+export const ADD_TODO = 'ADD_TODO'
+export const DELETE_TODO = 'DELETE_TODO'

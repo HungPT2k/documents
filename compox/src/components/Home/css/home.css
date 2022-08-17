@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+}
+.ImgHome{
+    background: #ebe2a9;
+height: auto;
+  width: 80%;
+    margin: auto;
+}
+.ImgHome img{
+    margin-left: 130px;
+    width: auto;
+   height: auto;
+}
+.imgVe {
+    background: #242424;
+    height: auto;
+    width: 80%;
+    margin: auto;
+}
+.imgVe img{
+    margin-left: 8px;
+    width: 99%;
+    height: auto;
+}

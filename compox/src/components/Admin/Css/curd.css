@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+}
+.heardCurd{
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background: #8aff36;
+}
+.heardCurd a{
+    float: right;
+}
+.heardCurd a:hover{
+    text-decoration: red;
+}
+.addNew {
+    background: #2b19ff;
+    float: right;
+}
+.menuCurd{
+    width: 20%;
+    height: 900px;
+    background: #f5ff66;
+    float: left;
+}
+.menuCurd ul{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.menuCurd ul li{
+    text-align: left;
+    font-size: x-large;
+    list-style: none;
+    padding: 40px;
+}
+.menuCurd ul li:hover{
+    background: #8aff36;
+}
+.containerCurd{
+    width: 80%;
+    height: 900px;
+    float: left;
+
+}
+.tableCurd table {
+    border-collapse: collapse;
+    width: 100%;
+    height: 200px;
+}
+
+.tableCurd th, td {
+    text-align: left;
+    padding: 8px;
+}
+.tableCurd table tbody tr td :hover{
+    background: #ffec5c;
+    cursor: pointer;
+}
+.tableCurd tr:nth-child(even){background-color: #f2f2f2}
+.tableCurd tr:hover{
+    cursor: pointer;
+    background: #ff361a;
+}
+.tableCurd th {
+    background-color: #04AA6D;
+    color: white;
+}
+.tableCurd img{
+    width: 50px;
+    height: 60px;
+}
+.action{
+    position: center;
+}
+.CalendarMovie{
+    /*margin-top: 40px;*/
+    width: 100%;
+    height: 900px;
+    float: left;
+}
+.timeChose{
+    margin-top: 30px;
+    margin-left: 30px;
+    float: left;
+}
+
+.timeChose  >input{
+
+
+}
+
+.choseCinemas{
+    margin-top: 10px;
+
+    float: left;
+}
+.gSearch{
+    float: right;
+    padding: 40px;
+
+}
+.scrollBar {
+    background: #8aff36;
+    Overflow-y:scroll;
+    width: 100%;
+}

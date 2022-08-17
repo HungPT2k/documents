@@ -1,0 +1,32 @@
+.createMovie {
+    background: #8aff36;
+    float: left;
+    position: relative;
+    margin-left: 400px;
+    margin-top: 40px;
+    padding: 10px;
+}
+.createMovie h2{
+    text-align: center;
+    background: #ff361a;
+}
+.createMovie form{
+    margin-top: 20px;
+}
+.createMovie form button{
+    background: #f9ff19;
+    margin-left: 150px;
+    margin-top: 20px;
+    padding: 10px 30px;
+}
+.createMovie form div{
+    padding: 20px;
+}
+.createMovie form div input{
+    padding: 5px 50px;
+    background: #61dafb;
+    float: right;
+}
+.createMovie form div label{
+
+}

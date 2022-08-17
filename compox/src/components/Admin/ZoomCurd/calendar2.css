@@ -1,0 +1,50 @@
+*{
+margin: 0;
+}
+.showSchedule2{
+
+    background: #242424;
+    height: 750px;
+    width: 100%;
+    overflow-y: scroll;
+    margin: auto;
+
+}
+.choseDate form{
+    text-align: center;
+}
+
+.potter2{
+    width: 30%;
+    height: 220px;
+    float: left;
+}
+.potter2 img{
+    float: left;
+    width:100%;
+    height:220px;
+}
+.inforShow2{
+    float: left;
+    height: 220px;
+    width: 70%;
+    background: #f9ffc6;
+}
+.inforShow2 ul{
+    padding: 10px;
+
+}
+.inforShow2 div label{
+    float: left;
+}
+.inforShow2 div ul li input{
+    float: left;
+}
+
+.inforShow2 div  {
+    margin-right: 200px;
+   float: left;
+}
+.inforShow2 ul li{
+    padding: 10px;
+}
