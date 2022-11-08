@@ -3,3 +3,8 @@ gỉt checkout -b tên_nhánh_mới
 git push -A ( add tất cả file vừa cop lên)
 git commit -m" đặt_tên_cho_file_trong_nhánh"
 git push origin tên_nhánh_vừa_đặt
+
+udate
+git add .
+git commit -m "update lan 2"
+git push origin
