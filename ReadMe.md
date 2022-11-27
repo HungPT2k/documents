@@ -20,6 +20,12 @@
 
   https://www.facebook.com/groups/laptrinhjavaweb/permalink/1244081416344667
   
++ Xây dựng các truy vấn động dựa trên đầu vào của người dùng 
+   Spring Data JPA Specifications là một công cụ khác mà chúng tôi sử dụng để thực hiện các truy vấn cơ sở dữ liệu với Spring hoặc Spring Boot.
+   Specifications được xây dựng dựa trên Criteria API.
+
+  https://github.com/kodgemisi/specification-builder
+  
 + Cách lưu 1 list object
  
  
