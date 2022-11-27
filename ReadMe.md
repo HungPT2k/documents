@@ -4,9 +4,9 @@
 
 + ObjectMapper convert cái Map thành String
 
-+ Reresh token dùng spring security thì nó tự lưu rồi thì phải
++ Reresh token dùng spring security thì nó tự lưu rồi 
 
-+B ản chất seriation
++Bản chất seriation
   https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/serialization/?fbclid=IwAR13mcCMvoEydHy8DRlgGA5T_D7k_IUWXl64Prcyvn6Yh_VONugLUWhWJoY
 
 + Đa ngôn ngữ
@@ -15,11 +15,12 @@
 + Cập nhật thay đổi ( Auding)
 
   @CreatedBy, @LastModifiedBy, @CreatedDate and @LastModifiedDate 
+  
 + Call api paypal
 
   https://www.facebook.com/groups/laptrinhjavaweb/permalink/1244081416344667
   
-+Cách lưu 1 list object
++ Cách lưu 1 list object
  
  
 ![image](https://user-images.githubusercontent.com/91839672/204146569-110926a2-30a9-4693-aa31-2bad86eaa0f6.png)
