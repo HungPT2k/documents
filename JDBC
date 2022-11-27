@@ -1,9 +1,0 @@
---controller: nhận request trả về view tương ứng, gọi các hàm từ service để sử dụng
---Dao : Chứa các List Ojetc dữ liệu tương ứng trong model
---model : ánh xạ dữ liệu theo các bảng trong csdl
---view: Các file html
-Service: Xử lý logic
--- JDBC kết nối cơ sở dữ liệu
-
-mỗi database có 1 cổng kết nối riêng( Database URL Formulation)
-kết nối trong bằng cách cấu hình vào file xml
