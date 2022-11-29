@@ -13,3 +13,4 @@ spring profile
 spring redis
 serialable
 Query DSL trong elasticsearch
+Custom Spring Data base Repository
