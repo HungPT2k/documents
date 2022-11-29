@@ -14,3 +14,4 @@ spring redis
 serialable
 Query DSL trong elasticsearch
 Custom Spring Data base Repository
+Clean Code, Refactoring và Clean Architecture
