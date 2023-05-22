@@ -20,3 +20,4 @@ Cacheable
 custom @transctions
 cascade. in hibernate
 flatMap() in stream to handle array<array<xx>>
+SSO
