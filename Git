@@ -8,3 +8,54 @@ udate
 git add .
 git commit -m "update lan 2"
 git push origin
+
+
+clone
+fetch
+push
+pull (  cập nhật thay đổi trên remote)
+
+__nếu tạo repo trên git
+git clone
+git add.
+git commit
+git push origin
+
+__nếu tạo repo bằng terminal
+git add
+git commit
+git remote add origin url_repo ( đồng bộ)
+git push origin master
+
+
+Làm dự án :
+bit branch
+git checkout ( hoặc checkout -b = tạo xong chuyển)
+git merge( khi tạo nhánh mới và muốn cập nhập với nháh chính thì mới dùg)
+
+chuyển branch thì phải commit trc
+
+Tạo pull request ( giải thích thay đổi)
+
+
+Host:
+	Khởi tạo dự án ( nhánh master)
+	Tạo nhánh mới : git checkout develop
+	Phân việc : chức năng issues   trong git
+	Host push code sang nhánh develop để nhân viên thao tác : git push -u origin develop
+	Nhân viên bắt đầu làm việc :
+		Nv tạo một chức năng mới: git checkout -b tênNhanh/cmt
+		kiểm tra : git status
+		Nv tạo file và code trong ide
+		Nv đẩy lên: git add file
+				git commit -m"#1...."
+				git push
+		Nv tạo pull request:
+		Nv đẩy về lại nhánh develop:
+				git checkout develop
+				git pull ( đồng bộ với cái mình code): kéo về
+	Host tạo một nhánh mới ( nhánh này là chức năg mới vừa được cập nhật)
+	tester sẽ kiểm tra code nhánh này
+	Nếu hợp lý Host sẽ câp nhật với nhánh master
+	Xog việc host sẽ xóa nhánh vừa tạo
+		
