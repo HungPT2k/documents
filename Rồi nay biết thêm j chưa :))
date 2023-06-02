@@ -1,5 +1,12 @@
 --17/11/2021
 IO file
+    -Đọc ghi file theo từng byte 
+            + FileinputStream
+            +FileOutstream
+     -Đọc theo từng dòng
+            +bufferedReader
+            +bufferedWriter
+      -dùng multipartfile thì k cần quan tâm đến đọc file vì nó đã hỗ trợ sẵn các lớp đọc file
     bufferedReader
     PrintWriter
     print / printline
